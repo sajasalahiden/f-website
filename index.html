@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <!-- ootstrap@5.2.3 css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <!-- fontawesome icons css -->
+  <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
+  <!--  animate 4.1.1 css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+  <!-- my style css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- * main sec -->
+  <main>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">YOUR LOGO</a>
+          <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#list1" aria-controls="list1" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button> -->
+
+          <button class="btn btn-outline-light navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#list-offconvse" aria-controls="list-offconvse">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="list1">
+            <div class="navbar-nav gap-3 ms-auto me-4">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Products</a>
+              <a class="nav-link" href="#">Promao</a>
+              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">Concat</a>
+            </div>
+            <i class="fa-solid fa-magnifying-glass "></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="hero">
+      <div class="container d-flex justify-content-end align-items-center  vh-100">
+        <div class="content w-50 text-white">
+          <h1>  Title Here</h1>
+          <p>Lorem ipsum dolor,dipisicing elit. Dolores voluptas quisquam tempora quasi veritatis dolorem, totam aut dolor .</p>
+          <a href="">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- - main sec -->
+
+
+  <!-- * about sec -->
+  <section class="about py-5" id="about">
+    <div class="container">
+      <h2 class="text-center">About Us..</h2>
+      <div class="row row-cols-1 align-items-center gx-0 gy-5 gx-lg-5">
+        <div class="col-lg-5 ">
+          <div class="imgbox">
+            <img src="earthicon.png" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="col-lg-7 ">
+          <div class="content">
+            <div class="subject mb-3">
+              <h4>Lorem ipsum dolor sit.</h4>
+              <div class="bar bg-dark bg-opacity-10 rounded-pill">
+                <div class="level bg-warning" data-numb="40"></div>
+              </div>
+            </div>
+            <div class="subject mb-3">
+              <h4>Lorem ipsum dolor sit.</h4>
+              <div class="bar bg-dark bg-opacity-10 rounded-pill">
+                <div class="level bg-warning " data-numb="30"></div>
+              </div>
+            </div>
+            <div class="subject mb-3">
+              <h4>Lorem ipsum dolor sit.</h4>
+              <div class="bar bg-dark bg-opacity-10 rounded-pill">
+                <div class="level bg-warning" data-numb="80"></div>
+              </div>
+            </div>
+            <div class="subject mb-3">
+              <h4>Lorem ipsum dolor sit.</h4>
+              <div class="bar bg-dark bg-opacity-10 rounded-pill">
+                <div class="level bg-warning" data-numb="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- - about sec -->
+
+   <section class="works py-5">
+    <div class="container">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-3">
+              <div class="col">
+                <div class="box bg-dark text-warning p-5">Box </div>
+              </div>
+              <div class="col">
+                <div class="box bg-dark text-warning p-5">Box </div>
+              </div>
+              <div class="col">
+                <div class="box bg-dark text-warning p-5">Box </div>
+              </div>
+              <div class="col">
+                <div class="box bg-dark text-warning p-5">Box </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-3">
+              <div class="col">
+                <div class="box bg-dark text-warning p-5">Box 2 </div>
+              </div>
+              <div class="col">
+                <div class="box bg-dark text-warning p-5">Box 2 </div>
+              </div>
+              <div class="col">
+                <div class="box bg-dark text-warning p-5">Box 2 </div>
+              </div>
+              <div class="col">
+                <div class="box bg-dark text-warning p-5">Box 2 </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 gy-3 gx-0 gx-md-3">
+              <div class="col">
+                <div class="box bg-dark text-warning p-5">Box 3</div>
+              </div>
+              <div class="col">
+                <div class="box bg-dark text-warning p-5">Box 3</div>
+              </div>
+              <div class="col">
+                <div class="box bg-dark text-warning p-5">Box 3</div>
+              </div>
+              <div class="col">
+                <div class="box bg-dark text-warning p-5">Box 3</div>
+              </div>
+            </div>       </div>
+        </div>
+      
+      </div>
+    </div>
+  </section>
+  <button id="goUp" class=" d-none btn btn-warning position-fixed bottom-0 end-0 translate-middle"><i class="fa-solid fa-up"></i></button>
+<!-- loadingin sec -->
+<div class="loadingsec bg-dark fixed-top vh-100 d-flex align-items-center justify-content-center">
+  <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+</div>
+<!-- list nav bar -->
+  <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="list-offconvse" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">LIST</h5>
+      <button type="button" class="btn btn-outline-light"  data-bs-dismiss="offcanvas" aria-label="Close">X</button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="navbar-nav gap-3 ms-auto me-4">
+        <a class="nav-link active" aria-current="page" href="#">Home</a>
+        <a class="nav-link" href="#">Products</a>
+        <a class="nav-link" href="#">Promao</a>
+        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#">Concat</a>
+      </div>
+      <i class="fa-solid fa-magnifying-glass "></i>
+    </div>
+  </div>
+  <!-- ootstrap@5.2.3 js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <!-- my script js -->
+  <script src="me.js"></script>
+</body>
+
+</html>
